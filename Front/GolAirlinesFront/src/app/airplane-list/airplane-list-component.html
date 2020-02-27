@@ -1,0 +1,28 @@
+<h3 class="title">Cadastro de Aviões</h3>
+<hr class="hrCustom" />
+<div class="containerButtonAdd">
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" (click)="onCadastrar()">Adicionar Avião</button>
+</div>
+<table class="table table-sm">
+    <thead>
+        <tr>
+        <th scope="col">Codigo do Avião</th>
+        <th scope="col">Modelo</th>
+        <th scope="col">Quantidade de Passageiros</th>
+        <th scope="col">Data de criação do registro</th>
+        <th scope="col" class="textAlignRight">Ações</th>
+        </tr>
+    </thead>
+    <tbody *ngFor='let airplane of airplanes'>
+        <tr>
+            <th scope="row" valign="middle">{{airplane.codigoDoAviao}}</th>
+            <td valign="middle">{{airplane.modelo}}</td>
+            <td valign="middle">{{airplane.quantidadePassageiros}}</td>
+            <td valign="middle">{{airplane.dataRegistro}}</td>
+            <td valign="middle" class="textAlignRight">
+                <button type="button" class="btn btn-info" (click)="onAlterar(airplane.codigoDoAviao)">Alterar</button>&nbsp;
+                <button type="button" class="btn btn-danger" (click)="onExcluir(airplane.codigoDoAviao)">Excluir</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,13 @@
+Manual de Instruções antes do uso da api:
+
+- A api foi desenvolvida em dotnet-core 2.2 caso tenha problemas em abrir a solution por favor baixe o arquivo abaixo:
+https://dotnet.microsoft.com/download/dotnet-core/2.2
+
+Pontos a serem feitos para evitar problemas:
+- Clique com o botão direito na "WEBAPI GolAirlines" => Vá até o item "Debug" e faça as seguintes operações:
+- Habilitar o Launch Browser e colocar a url swagger/index.html
+- Desabilitar em seu debug o ENABLE SSL
+- configurar o APP URL para http://localhost:56934
+
+A api contem uma documentação(Swagger) então para consumir os métodos não é preciso utilizar o Postmna ou algo do tipo 
+basta apenas rodar a api que uma tela com o swagger e todos os metodos serão exibidos.

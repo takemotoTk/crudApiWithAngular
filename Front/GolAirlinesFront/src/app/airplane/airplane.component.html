@@ -1,0 +1,24 @@
+<h3 class="title">{{displayTitle}} Avião</h3>
+<hr class="hrCustom" />
+<div class="col-md-6 user-container">
+    <form [formGroup]="customForm" (ngSubmit)="onSalvar()">
+        <div class="form-group">
+            <label for="modelo">Modelo do Avião:</label>
+            <select formControlName="modelo" id="modelo" name="modelo" placeholder="Modelo do Avião" class="form-control">
+                <option value="1">Boeing 737 Max 8</option>
+                <option value="2">Boeing 737 800 NG</option>
+                <option value="3">Boeing 737 700 NG</option>
+            </select>
+            <!-- <div *ngIf="(modelo.dirty || modelo.touched) && modelo.invalid" class="alert alert-danger">Campo Obrigatório.</div> -->
+        </div>
+
+        <div class="form-group">
+            <label for="quantidadePassageiros">Quantidade de Passageiros:</label>
+            <input type="number" formControlName="quantidadePassageiros" placeholder="Qtd de Passageiros" name="quantidadePassageiros" class="form-control" id="quantidadePassageiros">
+            <!-- <div *ngIf="(quantidadePassageiros.dirty || quantidadePassageiros.touched) && quantidadePassageiros.invalid" class="alert alert-danger">Campo Obrigatório.</div> -->
+        </div>
+
+        <button class="btn btn-success">Salvar</button>&nbsp;
+        <button type="button" class="btn btn-secondary" (click)="voltar()">Voltar</button>
+    </form>
+</div>

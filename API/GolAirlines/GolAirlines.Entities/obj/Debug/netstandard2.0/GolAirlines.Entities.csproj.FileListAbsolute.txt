@@ -1,0 +1,15 @@
+D:\projetos\GolAirlines\GolAirlines.Entities\bin\Debug\netstandard2.0\GolAirlines.Entities.deps.json
+D:\projetos\GolAirlines\GolAirlines.Entities\bin\Debug\netstandard2.0\GolAirlines.Entities.dll
+D:\projetos\GolAirlines\GolAirlines.Entities\bin\Debug\netstandard2.0\GolAirlines.Entities.pdb
+D:\projetos\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.AssemblyInfoInputs.cache
+D:\projetos\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.AssemblyInfo.cs
+D:\projetos\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.dll
+D:\projetos\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.pdb
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\bin\Debug\netstandard2.0\GolAirlines.Entities.deps.json
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\bin\Debug\netstandard2.0\GolAirlines.Entities.dll
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\bin\Debug\netstandard2.0\GolAirlines.Entities.pdb
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.csprojAssemblyReference.cache
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.AssemblyInfoInputs.cache
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.AssemblyInfo.cs
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.dll
+D:\projetos\GOL\API\GolAirlines\GolAirlines.Entities\obj\Debug\netstandard2.0\GolAirlines.Entities.pdb
